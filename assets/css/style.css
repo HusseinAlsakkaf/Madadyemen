@@ -101,6 +101,23 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo {
   float: left;
 }
+#books{
+   
+display: flex;
+  justify-content: space-between;  
+}
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 #header #logo h1 {
   font-size: 36px;
