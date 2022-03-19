@@ -108,7 +108,10 @@ display: flex;
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 100%;
+}
+.link-text{
+  font-size: 28px;
 }
 
 /* Clear floats after the columns */
@@ -742,6 +745,8 @@ section {
 
 #services .title a {
   color: #111;
+  font-size: 28px;
+
 }
 
 #services .description {
