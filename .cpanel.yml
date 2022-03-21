@@ -1,5 +1,7 @@
 ---
 deployment:
       tasks:
-        
-        - /bin/cp -r * $DEPLOYPATH                        #copy all recursively to $DEPLOYPATH
+        - export DEPLOYPATH=/home/MADADYEMEN/public_html  # Add /<app_folder> if required
+
+        - /bin cp * $DEPLOYPATH                           #copy all from root 
+      
